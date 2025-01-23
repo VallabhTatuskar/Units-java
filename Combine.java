@@ -73,8 +73,8 @@ public class Combine {
                 b=a*a;
                 System.out.println("The square of the number is: "+b);
                 break;
+                
             case 5:
-
                 System.out.print("Enter a number: ");
                 a=sc.nextInt();
                 if (a%2==0) {
@@ -85,8 +85,8 @@ public class Combine {
                     System.out.println("The number is odd.");
                 }
                 break;
+                
             case 6:
-
                 System.out.print("Enter a number: ");
                 a=sc.nextInt();
                 if (a>0) {
@@ -565,7 +565,6 @@ class C20 {
         System.out.println("Current Balance: ₹" + balance);
     }
 
-    // Method to display account details
     void displayAccountDetails() {
         System.out.println("\nAccount Details:");
         System.out.println("Account Number: " + accountNumber);
@@ -763,7 +762,7 @@ class C30 {
     }
 }
 
-//case 31
+//case 32
 class Vehicle4 {
     public void move() {
         System.out.println("Its Vehicle");
